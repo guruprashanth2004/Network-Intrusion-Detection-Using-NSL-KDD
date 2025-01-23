@@ -4,7 +4,7 @@
 This project aims to develop a machine learning model for detecting network intrusions using the NSL-KDD dataset. The model classifies network traffic into two categories: benign (normal) and malicious (various types of attacks). By leveraging a neural network architecture, this project demonstrates the potential of machine learning in enhancing cybersecurity.
 
 ## Dataset
-The NSL-KDD dataset is a widely used benchmark for evaluating intrusion detection systems. It contains a variety of network traffic data, including both normal and attack instances. The dataset is available for download from [here](https://www.unb.ca/research/nsl/kdd/).
+The NSL-KDD dataset is a widely used benchmark for evaluating intrusion detection systems. It contains a variety of network traffic data, including both normal and attack instances.
 
 ## Features
 - Data preprocessing, including encoding categorical features and standardizing numerical values.
