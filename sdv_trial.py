@@ -125,22 +125,3 @@ for i in range(len(batch_samples)):
     print(f"  Predicted Label: {'Malicious' if batch_predicted_labels[i][0] == 1 else 'Benign'}")
     print(f"  Confidence Score: {batch_predictions[i][0]:.2f}")
 
-"""# **git**"""
-
-!git init
-
-!git config --global user.name "guru_prashanth"
-!git config --global user.email "guruprashanthmedasani@gmail.com"
-
-!git remote add origin https://github.com/guruprashanth2004/Network-Intrusion-Detection-Using-NSL-KDD.git
-
-# Commented out IPython magic to ensure Python compatibility.
-# %%writefile sdv.py
-
-!git add .
-
-!git commit -m "code commit"
-
-!git push https://github.com/guruprashanth2004/Network-Intrusion-Detection-Using-NSL-KDD.git
-
-!git branch -a
